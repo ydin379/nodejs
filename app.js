@@ -1,4 +1,4 @@
-# nodejs
+
 /**
  * webserver-db-app.js
  * 
@@ -28,7 +28,7 @@ var app       = express();
 var config = {
       "USER"     : "",                  // if your database has user/pwd defined
       "PASS"     : "",
-      "HOST"     : "ec2-54-252-31-96.ap-southeast-2.compute.amazonaws.com",  // the domain name of our MongoDB EC2 instance
+      "HOST"     : "ec2-52-89-75-71.us-west-2.compute.amazonaws.com",  // the domain name of our MongoDB EC2 instance
       "PORT"     : "27017",             // this is the default port mongoDB is listening for incoming queries
       "DATABASE" : "my_example"         // the name of your database on that instance
     };
